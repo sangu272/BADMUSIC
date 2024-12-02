@@ -5,27 +5,27 @@ from pyrogram import filters
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-@Client.on_message(filters.command(["repo"], prefixes=["."]))
+@app.on_message(filters.command(["repo"]))
 async def start(client: Client, message: Message):
     await message.reply_video(
-        video=f"https://telegra.ph/file/bda2c51bd00c8f4710b04.mp4",
-        caption=f"❤️ ʜᴇʏ {message.from_user.mention} [☆ ʀᴇᴘᴏ 💗](https://github.com/Badhacker98/BADMUSIC/fork)",
+        video=f"https://envs.sh/Ygb.mp4",
+        caption=f"❤️ ʜᴇʏ {message.from_user.mention}",
         reply_markup=InlineKeyboardMarkup(
             [
                [
             InlineKeyboardButton(
-                text="☆ ᴏᴡɴᴇʀ 💗 ", url=f"https://t.me/ll_BAD_MUNDA_ll"
+                text="☆ ᴏᴡɴᴇʀ 💗 ", url=f"https://t.me/ll_ITZ_NAWAB_HERE_ll"
             ),
             InlineKeyboardButton(
-                text="☆ ɢʀᴏᴜᴘ 💗", url=f"https://t.me/PBX_CHAT"
+                text="☆ ɢʀᴏᴜᴘ 💗", url=f"https://t.me/SIDHI_SUPPORT"
             ),
         ],
           [
             InlineKeyboardButton(
-                text="☆ ᴄʜᴀɴɴᴇʟ 💗 ", url=f"https://t.me/HEROKUBIN_01"
+                text="☆ ᴄʜᴀɴɴᴇʟ 💗 ", url=f"https://t.me/TG_BIO_STYLE"
             ),
             InlineKeyboardButton(
-                text="☆ ʀᴇᴘᴏ 💗", url=f"https://github.com/Badhacker98/BADMUSIC/fork"
+                text="☆ ʀᴇᴘᴏ 💗", url=f"https://t.me/SIDHI_MUSIC/20"
             ),
         ],
                 [
