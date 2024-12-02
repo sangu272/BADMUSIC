@@ -20,8 +20,8 @@ lang_db = chatdb["ChatLangDb"]["LangCollection"]
 
 CHATBOT_ON = [
     [
-        InlineKeyboardButton(text="ᴇɴᴀʙʟᴇ", callback_data="enable_chatbot"),
-        InlineKeyboardButton(text="ᴅɪsᴀʙʟᴇ", callback_data="disable_chatbot"),
+        InlineKeyboardButton(text="Enable", callback_data="enable_chatbot"),
+        InlineKeyboardButton(text="Disable", callback_data="disable_chatbot"),
     ],
 ]
 
